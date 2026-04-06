@@ -1,6 +1,6 @@
 ESP32-S3 code for wifi connectivity and sensors
 
-Equipment:
+Equipment:  
 1 xESP32-S3  
 1 xSENSOR GAS/HUM/PRES/TEMP I2C SPI BME688  
 1 xMEMS CH4 GAS DETECTION SENSOR  
