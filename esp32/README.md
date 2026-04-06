@@ -1,6 +1,6 @@
 ESP32-S3 code for wifi connectivity and sensors
 
-Equipment:  
+####Equipment:  
 1 xESP32-S3  
 1 xSENSOR GAS/HUM/PRES/TEMP I2C SPI BME688  
 1 xMEMS CH4 GAS DETECTION SENSOR  
@@ -27,3 +27,8 @@ Qwiic) [ID:3709]
 1 x Power SupplyDC - 3V to 24V at 2 Amp[ID:5130]  
 1 x SDP800-125PA Sensirion Board Mount Pressure Sensors  
 1 x SCD30 Sensirion Multiple Function Sensor Modules  
+
+#steps:
+1. Acquiring a sensor readout from individual components
+2. Obtaining synchronized outputs from daisy chained i2c components
+3. uploading sensor data using an api key to Supabase
